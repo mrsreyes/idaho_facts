@@ -1,0 +1,39 @@
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 18.5em;
+  color: white;
+}
+img{
+	height: 20em;
+	width: 100%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+footer{
+	margin-top: 20em;
+	text-align: center;
+}
+
+table{
+  width:"400";
+  border:"0";
+  text-align:"center";
+  padding: "3";
+  letter-spacing: "0"
+}
